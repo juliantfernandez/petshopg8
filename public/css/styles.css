@@ -619,7 +619,6 @@ flex-wrap: wrap;
 
 .signo-mas{
     content: "\f067";
-    font-family: 'Line Awesome Free';
     font-weight: 900;
 }
 
@@ -638,7 +637,7 @@ flex-wrap: wrap;
 
 .signo-mas{
     content: "\f068";
-    font-family: 'Line Awesome Free';
+    
     font-weight: 900;
 }
 
@@ -654,7 +653,6 @@ flex-wrap: wrap;
     color: #6C6EA0;
     font-weight: 700;
     font-size: 16px;
-    font-family: playfair display;
 }
 
 .titulo-register{
