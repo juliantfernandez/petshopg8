@@ -1,9 +1,8 @@
 let express = require('express')
 const path = require('path')
 let app = express()
-const publicPath = path.resolve(__dirname, './public')
 app.set('view engine', 'ejs')
-app.use(express.static(publicPath))
+app.use(express.static("./public"))
 // app.use(express.urlencoded({extended:false})); //Captura info x POST
 // app.use(express.json()); // POST
 
