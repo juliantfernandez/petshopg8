@@ -4,7 +4,7 @@ let productsController = require('../controllers/productsController.js');
 
 
 
-router.get('/', productsController.index)
+router.get('/', productsController.home)
 
 // router.get('/productCreate',productsController.create)
 
