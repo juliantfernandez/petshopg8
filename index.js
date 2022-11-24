@@ -4,11 +4,11 @@ let app = express()
 const publicPath = path.resolve(__dirname, './public')
 app.set('view engine', 'ejs')
 app.use(express.static(publicPath))
-app.use(express.urlencoded({extended:false})); //Captura info x POST
-app.use(express.json()); // POST
+// app.use(express.urlencoded({extended:false})); //Captura info x POST
+// app.use(express.json()); // POST
 
-const methodOverride = require('method-override'); // PUT,DELETE
-app.use(methodOverride('_method')); // PUT,DELETE
+// const methodOverride = require('method-override'); // PUT,DELETE
+// app.use(methodOverride('_method')); // PUT,DELETE
 
 let productsRoutes = require('./src/routes/productsRoutes')
 app.use('/', productsRoutes)
