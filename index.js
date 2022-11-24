@@ -10,7 +10,7 @@ app.use(express.static(publicPath))
 // const methodOverride = require('method-override'); // PUT,DELETE
 // app.use(methodOverride('_method')); // PUT,DELETE
 
-let productsRoutes = require('../../src/routes/productsRoutes')
+let productsRoutes = require('./src/routes/productsRoutes')
 app.use('/', productsRoutes)
 
 // app.get('/', (req,res)=>{
