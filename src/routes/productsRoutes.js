@@ -6,19 +6,19 @@ let productsController = require('../controllers/productsController.js');
 
 router.get('/', productsController.index)
 
-router.get('/productCreate',productsController.create)
+// router.get('/productCreate',productsController.create)
 
-router.get('/productEdit/:id', productsController.edit)
+// router.get('/productEdit/:id', productsController.edit)
 
-router.put('/productEdit/:id', productsController.update)
+// router.put('/productEdit/:id', productsController.update)
 
-router.get('/productDetail', productsController.detail)
+// router.get('/productDetail', productsController.detail)
 
-router.get('/productDetail/:id', productsController.detailId)
+// router.get('/productDetail/:id', productsController.detailId)
 
-router.post('/productCreate' ,productsController.store)
+// router.post('/productCreate' ,productsController.store)
 
-router.delete('/delete/:id', productsController.delete)
+// router.delete('/delete/:id', productsController.delete)
 
 
 
