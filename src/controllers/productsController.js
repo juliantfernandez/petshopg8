@@ -7,7 +7,7 @@
 
 let productsController = {
     home: (req, res) => {
-        res.render('index');
+        res.render('home');
     }
     
 }
