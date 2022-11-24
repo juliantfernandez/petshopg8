@@ -9,12 +9,12 @@ app.use(express.static("./public"))
 // const methodOverride = require('method-override'); // PUT,DELETE
 // app.use(methodOverride('_method')); // PUT,DELETE
 
-let productsRoutes = require('./src/routes/productsRoutes')
-app.use('/', productsRoutes)
+// let productsRoutes = require('./src/routes/productsRoutes')
+// app.use('/', productsRoutes)
 
-// app.get('/', (req,res)=>{
-//     res.send('Hola Mundo')
-// })
+app.get('/', (req,res)=>{
+    res.render('index')
+})
 
 // const usersRoutes = require('./src/routes/usersRoutes')
 // app.use('/', usersRoutes)
